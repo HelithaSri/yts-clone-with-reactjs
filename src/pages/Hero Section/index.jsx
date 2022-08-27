@@ -12,24 +12,6 @@ function HeroSection() {
         <Card />
         <Card />
         <Card />
-        <Card />
-        <Card />
-      </div>
-      <div style={{ display: 'flex', gap: '10px' }}>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </div>
-      <div style={{ display: 'flex', gap: '10px' }}>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
       </div>
     </section>
   )
