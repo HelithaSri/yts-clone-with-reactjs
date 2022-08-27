@@ -1,0 +1,75 @@
+.cardWraper{
+    display: inline-block;
+    /* background-color: red; */
+    height: 367.969px;
+    width: 262.500px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card{
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: blue;
+    height: 315px;
+    width: 210px;
+    border: 5px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.card:hover{
+    border: 5px solid #5da93c;
+}
+
+.card2{
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.726);
+    height: 315px;
+    width: 210px;
+    color: white;
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    transform: translateY(500px);
+
+}
+.card:hover > .card2{
+    transform: translateY(0px);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    gap: 10px;
+}
+
+a{
+    
+    text-decoration: none;
+}
+
+a:visited{
+    color: white !important;
+}
+
+.viewBtn{
+    background-color: #5da93c;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
