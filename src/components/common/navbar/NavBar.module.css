@@ -7,17 +7,19 @@
   /* padding-top: 8px; */
   background-color: #1d1d1d;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #2f2f2f;
+  padding-left: 5%;
+  padding-right: 5%;
 }
-.logoDiv {
+.leftDiv {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 25px;
 }
-.logoDiv > img {
+.leftDiv > img {
   height: 40px;
 }
 .navText {
@@ -26,3 +28,43 @@
   padding: 0;
   margin: 0;
 }
+.rightDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+.quick_search_input {
+  width: 250px;
+  height: 35px;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: #919191;
+  border: 2px solid #333;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  padding: 4px 30px;
+  background: #1d1d1d url('../../../assets/img/icon-search.png') no-repeat 9px
+    8px;
+}
+
+.navLinks {
+    padding-top: 15px;
+    display: inline-block;
+}
+.navLinks > li {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: .85em;
+  overflow: hidden;
+  color: #919191;
+  font-weight: bold;
+}
+.navLinks > li > a{
+    /* display: inline-block; */
+    flex-direction: row;
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+  }
