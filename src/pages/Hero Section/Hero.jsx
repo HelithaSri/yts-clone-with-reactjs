@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './../../components/common/movie card/Card'
+import styles from "./Hero.module.css";
 
 function HeroSection() {
   return (
