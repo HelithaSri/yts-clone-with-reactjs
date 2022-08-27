@@ -2,3 +2,57 @@
     padding: 0;
     margin: 0;
 }
+
+.section{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(45deg, rgba(29,29,29,1) 20%, rgba(29,29,29,0.7511379551820728) 100%),url('../../assets/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+
+.container{
+    /* background-color: blue; */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    gap: 30px;
+}
+
+.container > div > p{
+    font-size: 15px;
+    width: 650px;
+    margin: 0 auto;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+.popular_row{
+    /* background-color: red; */
+    display: 'flex';
+    gap: 10px;
+}
+
+.line{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.line > span{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
