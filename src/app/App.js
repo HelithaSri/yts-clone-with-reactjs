@@ -1,6 +1,13 @@
+import NavBar from './../components/common/navbar/NavBar';
+
 function App() {
   return (
-    <div>Hello Heli</div>
+    <>
+        <NavBar/>
+        <main>
+          das
+        </main>
+    </>
   );
 }
 
