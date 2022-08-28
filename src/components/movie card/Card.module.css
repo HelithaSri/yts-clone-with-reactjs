@@ -103,3 +103,7 @@ a:visited{
     color: #919191;
     font-weight: normal;
 }
+
+.banner{
+    position: absolute;
+}

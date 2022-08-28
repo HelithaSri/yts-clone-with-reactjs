@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Card.module.css'
-import coverImg from '../../../assets/img/posters/dc.jpg'
+import coverImg from '../../assets/img/posters/dc.jpg'
+import bannerImg from '../../assets/img/banner/banner1080p.png'
 import { StarFill } from 'react-bootstrap-icons'
 
 function Card() {
@@ -11,6 +12,7 @@ function Card() {
           className={styles.card}
           style={{ backgroundImage: `url(${coverImg})` }}
         >
+          <img src={bannerImg} alt="hello" className={styles.banner}/>
           <div className={styles.card2}>
             <div className={styles.content}>
             <StarFill style={{ color: '#5da93c' }} />
