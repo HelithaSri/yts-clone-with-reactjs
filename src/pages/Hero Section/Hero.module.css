@@ -9,15 +9,19 @@
     background:linear-gradient(45deg, rgba(29,29,29,1) 20%, rgba(29,29,29,0.7511379551820728) 100%),url('../../assets/img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 85vh;
+    height: 76.5vh;
 }
 
 .container{
     /* background-color: blue; */
-    width: fit-content;
+    /* width: auto; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .textHeading{
@@ -63,7 +67,7 @@
     flex-direction: column;
     gap: 20px;
     justify-content: center;
-    margin-bottom: -40px;
+    margin-bottom: 20px;
 }
 
 .line > span{
