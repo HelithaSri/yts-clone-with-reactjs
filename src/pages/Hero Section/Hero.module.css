@@ -71,6 +71,10 @@
     /* margin-top: 20px; */
 }
 
+.line > hr{
+    border-color: #91919179;
+}
+
 .line > span{
     text-align: center;
     color: white;
