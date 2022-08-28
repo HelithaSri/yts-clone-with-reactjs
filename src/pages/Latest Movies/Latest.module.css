@@ -1,0 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.section{
+  background-color: #171717;
+  /* color: red; */
+  height: 80vh;
+}
