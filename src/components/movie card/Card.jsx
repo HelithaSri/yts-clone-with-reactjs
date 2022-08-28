@@ -12,11 +12,11 @@ function Card() {
           className={styles.card}
           style={{ backgroundImage: `url(${coverImg})` }}
         >
-          <img src={bannerImg} alt="hello" className={styles.banner}/>
+          <img src={bannerImg} alt="hello" className={styles.banner} />
           <div className={styles.card2}>
             <div className={styles.content}>
-            <StarFill style={{ color: '#5da93c' }} />
-              <h4>6/10</h4>
+              <StarFill style={{ color: '#5da93c' }} />
+              <h4 style={{ paddingBottom: '20px' }}>6/10</h4>
               <h4>Action</h4>
               <h4>Drama</h4>
             </div>
