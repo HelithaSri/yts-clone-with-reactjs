@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Card.module.css'
 import coverImg from '../../../assets/img/posters/dc.jpg'
+import { StarFill } from 'react-bootstrap-icons'
 
 function Card() {
   return (
@@ -12,7 +13,7 @@ function Card() {
         >
           <div className={styles.card2}>
             <div className={styles.content}>
-              <h4>Star</h4>
+            <StarFill style={{ color: '#5da93c' }} />
               <h4>6/10</h4>
               <h4>Action</h4>
               <h4>Drama</h4>
