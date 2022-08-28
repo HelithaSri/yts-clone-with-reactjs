@@ -20,23 +20,38 @@
     justify-content: space-around;
 }
 
-.container > div:nth-child(1){
+.textHeading{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
     font-size: 30px;
-    gap: 30px;
+    /* gap: 5px; */
 }
 
-.container > div > p{
+.textHeading > p{
     font-size: 15px;
     width: 650px;
     margin: 0 auto;
     line-height: 21px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
+
+.linkText{
+    font-size:15px;
+    color: #428bca;
+}
+
+.linkText:visited{
+    color: #428bca;
+}
+
+.linkText:hover{
+    color: #2e689b;
+}
+
 .popular_row{
     /* background-color: red; */
     display: 'flex';
