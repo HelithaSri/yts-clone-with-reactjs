@@ -6,7 +6,7 @@ import { StarFill } from 'react-bootstrap-icons'
 
 function Card() {
   return (
-    <a href="#">
+    <a href="#" className={styles.links}>
       <div className={styles.cardWraper}>
         <div
           className={styles.card}
@@ -20,7 +20,7 @@ function Card() {
               <h4>Action</h4>
               <h4>Drama</h4>
             </div>
-            <a href="#">
+            <a href="#" className={styles.links}>
               <div className={styles.viewBtn}>View Details</div>
             </a>
           </div>
